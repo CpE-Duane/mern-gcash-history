@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const signIn = (payload) => {
-     return axios.post('http://localhost:5000/api/auth/signin', payload, {
+     return axios.post('https://gcash-api.onrender.com/api/auth/signin', payload, {
           headers: {
                "Content-Type": "application/json",
           }

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const serverURL = 'http://localhost:5000'
+const serverURL = 'https://gcash-api.onrender.com'
 
 const updateCashBalance = (payload) => {
      return axios.put(`${serverURL}/api/balance/update-cash-balance`, payload)

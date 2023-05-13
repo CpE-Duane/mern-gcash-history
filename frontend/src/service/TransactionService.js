@@ -1,5 +1,5 @@
 import axios from 'axios'
-const serverURL = 'http://localhost:5000'
+const serverURL = 'https://gcash-api.onrender.com'
 
 const addTransaction = (payload) => {
      return axios.post(`${serverURL}/api/transaction/new-transaction`, payload, {
